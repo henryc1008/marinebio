@@ -4,9 +4,9 @@
 <div>
     hi from navbar
     <nav>
-        <a href="/about" class:active={$page.url.pathname == "/about"}> about</a>
-        <a href="/contact" class:active={$page.url.pathname == "/contact"}> contact</a>
-        <a href="/#" class:active={$page.url.pathname == "/"}> home</a>
+        <a href="./about" > about</a>
+        <a href="./contact" > contact</a>
+        <a href="./#" > home</a>
     </nav>
 </div>
 <style lang="scss">
