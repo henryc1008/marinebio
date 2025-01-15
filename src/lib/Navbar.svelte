@@ -4,12 +4,12 @@
 <div>
     hi from navbar
     <nav>
-        <a href="./about" > about</a>
-        <a href="./contact" > contact</a>
-        <a href="./#" > home</a>
-        <a href="./animals/Animal1">Animal 1 </a>
-        <a href="./animals/Animal2">Animal 2 </a>
-        <a href="./animals/Animal3">Animal 3 </a>
+        <a href="/about" > about</a>
+        <a href="/contact" > contact</a>
+        <a href="/#" > home</a>
+        <a href="/animals/Animal1">Animal 1 </a>
+        <a href="/animals/Animal2">Animal 2 </a>
+        <a href="/animals/Animal3">Animal 3 </a>
     </nav>
 </div>
 <style lang="scss">
