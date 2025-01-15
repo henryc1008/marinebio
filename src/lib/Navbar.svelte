@@ -1,15 +1,15 @@
 <script>
-    import {page} from "$app/stores";
+    import {base} from "$app/paths";
 </script>
 <div>
     hi from navbar
     <nav>
-        <a href="{page}/about" > about</a>
-        <a href="{page}/contact" > contact</a>
-        <a href="{page}/#" > home</a>
-        <a href="{page}/animals/Animal1">Animal 1 </a>
-        <a href="{page}/animals/Animal2">Animal 2 </a>
-        <a href="{page}/animals/Animal3">Animal 3 </a>
+        <a href="{base}/about" > about</a>
+        <a href="{base}/contact" > contact</a>
+        <a href="{base}/#" > home</a>
+        <a href="{base}/animals/Animal1">Animal 1 </a>
+        <a href="{base}/animals/Animal2">Animal 2 </a>
+        <a href="{base}/animals/Animal3">Animal 3 </a>
     </nav>
 </div>
 <style lang="scss">
