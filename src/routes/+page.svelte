@@ -2,7 +2,7 @@
     import Card from "$lib/Card.svelte"
 </script>
 <Card>
-
+kjnckjnsc
 </Card>
 
 <h1>Welcome to SSveltsjhgvjhgjhghjghjjdfhe</h1>
