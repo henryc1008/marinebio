@@ -1,6 +1,12 @@
 <script lang="ts">
+ let {name = "AAAA",
+        habitat = "",
+        diet = "",
+        behaviors = "",
+        image = "",
+    } = $props();
 import Factsheet from "./factsheet.svelte";
-import image from "$lib/images/vampire squid.jpeg";
+// import image from "$lib/images/vampire squid.jpeg";
 </script>
 
 <div>
@@ -8,7 +14,7 @@ import image from "$lib/images/vampire squid.jpeg";
 <img src={image} width=100%>
     </div>
     <div class="facts">
-        <Factsheet>
+        <Factsheet {name} {habitat} {diet} {behaviors}>
 
         </Factsheet>
     </div>
