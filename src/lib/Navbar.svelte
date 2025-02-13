@@ -7,9 +7,7 @@
         <a href="{base}/about" > about</a>
         <a href="{base}/contact" > contact</a>
         <a href="{base}/#" > home</a>
-        <a href="{base}/animals/Animal1">Animal 1 </a>
-        <a href="{base}/animals/Animal2">Animal 2 </a>
-        <a href="{base}/animals/Animal3">Animal 3 </a>
+        <a href="{base}/links"> links</a>
     </nav>
 </div>
 <style lang="scss">
