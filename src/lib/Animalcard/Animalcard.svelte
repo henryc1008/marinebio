@@ -3,23 +3,39 @@
     import Animalcontent from "./Animalcontent.svelte";
     import Animaldiet from "./Animaldiet.svelte";
     import Animalhabitat from "./Animalhabitat.svelte";
+    import Animalbehavior from "./Animalbehavior.svelte";
+    import Animalsize from "./Animalsize.svelte"
 
-    let {Habitat = "ocean"} = $props();
+    let {
+        habitat = "ocean",
+        name="animalname",
+        diet="animaldiet",
+        description="animaldescription",
+        behavior="animalbehavior",
+        size="animalsize"} = $props();
 </script>
 
 <div class="container">
 	<div class="row">
         <img src={bottlenosedolphin} alt="" class=box>
         <div class=box>
-            <Animalcontent> </Animalcontent> 
+            <Animalcontent {name} {description}> </Animalcontent> 
         </div>
     </div>
 	<div class="row">
         <div class=box>
-            <Animalhabitat {Habitat}/>
+            <Animalhabitat {habitat}/>
         </div>
         <div class=box>
-            <Animaldiet/> 
+            <Animaldiet {diet}/> 
+        </div>
+    </div>
+    <div class="row">
+        <div class=box>
+            <Animalbehavior {behavior}/>
+        </div>
+        <div class=box>
+            <Animalsize {size}/> 
         </div>
     </div>
 </div>
@@ -28,6 +44,7 @@
     .row {
         display:flex;
         justify-content: space-between;
+        margin-top: 10px;
     }
     .box {
         width: calc(50% - 0.75rem);
