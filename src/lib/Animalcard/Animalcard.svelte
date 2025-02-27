@@ -12,12 +12,13 @@
         diet="animaldiet",
         description="animaldescription",
         behavior="animalbehavior",
-        size="animalsize"} = $props();
+        size="animalsize",
+        image} = $props();
 </script>
 
 <div class="container">
 	<div class="row">
-        <img src={bottlenosedolphin} alt="" class=box>
+        <img src={image} alt="" class=box>
         <div class=box>
             <Animalcontent {name} {description}> </Animalcontent> 
         </div>
