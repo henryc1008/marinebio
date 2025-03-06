@@ -1,14 +1,15 @@
-<script>
+<script lang="ts">
 	let { data } = $props();
 	import Animalcard from '$lib/Animalcard/Animalcard.svelte';
-	import DolphinImage from '$lib/images/bottlenose dolphin.avif';
+	// import AnimalImage from '$lib/images/{data.animal.image}'
+	// let picture="$lib/images/"+{data.animal.image}
 </script>
 
 <Animalcard
 	name={data.animal.name}
 	description={data.animal.description}
 	size={data.animal.size}
-	image={DolphinImage}
+	image={data.animal.image}
     diet={data.animal.diet}
     behavior={data.animal.behavior}
     habitat={data.animal.habitat}

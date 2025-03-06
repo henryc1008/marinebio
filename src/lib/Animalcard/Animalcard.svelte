@@ -1,10 +1,10 @@
 <script lang="ts">
-    import bottlenosedolphin from "$lib/images/bottlenose dolphin.avif"
     import Animalcontent from "./Animalcontent.svelte";
     import Animaldiet from "./Animaldiet.svelte";
     import Animalhabitat from "./Animalhabitat.svelte";
     import Animalbehavior from "./Animalbehavior.svelte";
     import Animalsize from "./Animalsize.svelte"
+    import { base } from "$app/paths";
 
     let {
         habitat = "ocean",
@@ -18,7 +18,7 @@
 
 <div class="container">
 	<div class="row">
-        <img src={image} alt="" class=box>
+        <img src="{base}/{image}" alt="" class=box>
         <div class=box>
             <Animalcontent {name} {description}> </Animalcontent> 
         </div>

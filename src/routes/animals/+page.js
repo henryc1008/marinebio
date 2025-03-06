@@ -5,6 +5,13 @@ export function load() {
         summaries: animals.map((animal) => ({
             slug: animal.slug,
             title: animal.name
+        })),
+
+        cards: animals.map((animal) => ({
+            slug: animal.slug,
+            title: animal.name,
+            image: animal.image,
+            description: animal.description,
         }))
     };
 }
