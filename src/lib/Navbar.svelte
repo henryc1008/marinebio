@@ -8,6 +8,7 @@
         <a href="{base}/contact" > contact</a>
         <a href="{base}/#" > home</a>
         <a href="{base}/links"> links</a>
+        <a href="{base}/animals"> animals</a>
     </nav>
 </div>
 <style lang="scss">
