@@ -59,5 +59,6 @@
         padding: 2.25rem;
         display:flex;
         flex-direction: column;
+        border: 2px dotted;
     }
 </style>

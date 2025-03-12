@@ -11,7 +11,7 @@ export function load() {
             slug: animal.slug,
             title: animal.name,
             image: animal.image,
-            description: animal.description,
+            description: animal.shortdesc,
         }))
     };
 }

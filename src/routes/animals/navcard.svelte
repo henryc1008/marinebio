@@ -12,15 +12,19 @@
 
         <img src="{base}/{image}" alt="" class=box width=20%>
 		<p>
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-			labore et dolore magna aliqua.
+			{description}
 		</p>
 	</a>
 </div>
 
 <style>
 	div {
-		background-color: aquamarine;
+		background-color: #6b9fe3;
+		transition:0.3s;
+	}
+	div:hover{
+		background-color: #fafafa;
+		color:#6b9fe3
 	}
 	a {
 		color: inherit;

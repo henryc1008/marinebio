@@ -2,20 +2,21 @@
     import {base} from "$app/paths";
 </script>
 <div>
-    hi from navbar
+    <a href="{base}/#" > home</a>
     <nav>
         <a href="{base}/about" > about</a>
         <a href="{base}/contact" > contact</a>
-        <a href="{base}/#" > home</a>
         <a href="{base}/animals"> animals</a>
     </nav>
 </div>
 <style lang="scss">
     div{
-        background: var(--color--primary);
+        // background: var(--color--primary);
         display: flex;
         justify-content: space-between;
         padding: 15px;
+        border-bottom: 2px solid;
+        margin-bottom: 15px;
     }
     nav {
         display: flex;
